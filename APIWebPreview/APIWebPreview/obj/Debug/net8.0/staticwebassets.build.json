@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "QWcaTQ9hmwfzW3F5oT07T/CulCJHDrgw++neoWPYOx8=",
+  "Source": "APIWebPreview",
+  "BasePath": "_content/APIWebPreview",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

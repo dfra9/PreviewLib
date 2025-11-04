@@ -1,0 +1,40 @@
+[
+  {
+    "ContainingType": "APIWebPreview.EndPoints.FileEndpoints",
+    "Method": "UploadFile",
+    "RelativePath": "files",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIWebPreview.EndPoints.FileEndpoints",
+    "Method": "GetPreviewInfo",
+    "RelativePath": "preview/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y libreoffice \
+                       fonts-dejavu \
+                       ca-certificates \
+                       locales && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /data
+WORKDIR /data
+
+CMD ["sleep", "infinity"]
